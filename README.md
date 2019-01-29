@@ -18,10 +18,7 @@ COLLABARATING EDITING WITH DIFF PATCH MATCH
 - Server inspect
 - Linux/MacOS/Windows
 
-## Screenshots
-
-Demo UI view:
-
+## Demo UI view:
 ![Demo View](https://media.giphy.com/media/ygzfXDvPZJVkK3wEqo/giphy.gif)
 
 ## Usage
