@@ -1,5 +1,5 @@
 import * as uuid from "uuid/v4";
-import { debounce } from "lodash";
+import { throttle } from "lodash";
 import * as DiffMatchPatch from "diff-match-patch";
 // @ts-ignore
 // import * as Changeset from "changesets";
@@ -13,7 +13,7 @@ let lastSyncText = "";
 const changeSetStack = [];
 let appliedChangeSet;
 
-const handleStack = debounce(({ io, socket }) => {
+const handleStack = throttle(({ io, socket }) => {
   // the idea here is to put all the changeSet from different client in one stack, FILO
   // when we apply one changeSet to serverText, we need to do Inclusion Transformation for other changeSet by "transformAgainst"
   while (changeSetStack.length > 0) {

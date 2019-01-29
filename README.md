@@ -22,19 +22,7 @@ COLLABARATING EDITING WITH DIFF PATCH MATCH
 
 Demo UI view:
 
-![Demo view](https://raw.githubusercontent.com/antonfisher/react-express-webpack/docs/images/rew2-ui-screenshot.png)
-
-Development `.js` bundles:
-
-![Development js bundles](https://raw.githubusercontent.com/antonfisher/react-express-webpack/docs/images/rew-stat-dev.png)
-
-Production `.js` bundles:
-
-![Production js bundles](https://raw.githubusercontent.com/antonfisher/react-express-webpack/docs/images/rew-stat-prod.png)
-
-Production mode server output:
-
-![Production js bundles](https://raw.githubusercontent.com/antonfisher/react-express-webpack/docs/images/rew-log-prod.png)
+![Demo view](https://gfycat.com/FeistyMerryBream)
 
 ## Usage
 

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { debounce } from "lodash";
+import { throttle } from "lodash";
 // @ts-ignore
 import * as DiffWorker from "../../workers/Diff.worker";
 // @ts-ignore
@@ -119,7 +119,7 @@ class Editor extends React.PureComponent {
     return caretPositionShift;
   };
 
-  calculateDiff = debounce(async () => {
+  calculateDiff = throttle(async () => {
     const workerDiffCalc = DiffWorker();
     console.log("workerDiffCalc", workerDiffCalc);
     // @ts-ignore
