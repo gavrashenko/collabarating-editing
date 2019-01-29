@@ -22,7 +22,7 @@ COLLABARATING EDITING WITH DIFF PATCH MATCH
 
 Demo UI view:
 
-![Demo View](https://gph.is/2CTmDzK)
+![Demo View](https://media.giphy.com/media/ygzfXDvPZJVkK3wEqo/giphy.gif)
 
 ## Usage
 
