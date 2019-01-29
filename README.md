@@ -22,7 +22,7 @@ COLLABARATING EDITING WITH DIFF PATCH MATCH
 
 Demo UI view:
 
-![Demo view](https://gfycat.com/FeistyMerryBream)
+![Demo View](https://gph.is/2CTmDzK)
 
 ## Usage
 
